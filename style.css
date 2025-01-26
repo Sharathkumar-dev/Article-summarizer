@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name */
+
+.inconsolata-font {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #cdb4db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.heading {
+    margin-top: -40px;
+}
+
+.url {
+    height: 40px;
+    width: 450px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: medium;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.btn {
+    height: 40px;
+    width: 55px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+:hover.btn {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.summary-container {
+    height: 400px;
+    width: 800px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.summary {
+    text-align: left;
+}
+
+.summary-container {
+    overflow-x: hidden;
+}
